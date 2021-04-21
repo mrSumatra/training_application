@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:training_application/screens/login_screen.dart';
+
+import 'screens/splash_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(LoginTest());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,7 +13,4 @@ class MyApp extends StatelessWidget {
     // TODO: implement build
     throw UnimplementedError();
   }
- 
 }
-
-
