@@ -1,16 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:training_application/screens/login_screen.dart';
 
+import 'screens/profile_screen.dart';
+import 'screens/settings_screen.dart';
 import 'screens/splash_screen.dart';
 
 void main() {
-  runApp(LoginTest());
+  runApp(MaterialApp(
+    title: "Main",
+    debugShowCheckedModeBanner: false,
+    home: SplashScreen())
+  );
 }
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
-  }
-}
+// void main() {
+//   runApp(MaterialApp(
+//       title: "Main",
+//       debugShowCheckedModeBanner: false,
+//       home: ProfileScreen())
+//   );
+// }
