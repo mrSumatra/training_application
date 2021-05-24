@@ -17,6 +17,17 @@ class ProfileState extends State<ProfileScreen> {
     return Scaffold(
         backgroundColor: MyColors().themeWhite,
         appBar: AppBar(
+            leading: Row(
+                children: [
+                  SizedBox(width: 16.0),
+                  CustomButton(
+                      icon: Icons.arrow_back_ios_rounded,
+                      onButtonTap: (){
+                        Navigator.pop(context,
+                            MaterialPageRoute(builder: (context) => ProfileScreen()));
+                      }),
+                ]
+            ),
           iconTheme: IconThemeData(
             color: MyColors().themeBlack,
           ),

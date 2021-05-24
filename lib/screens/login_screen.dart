@@ -49,6 +49,7 @@ class LoginState extends State<LoginScreen> {
                         borderRadius:
                             BorderRadius.circular(Dimen().radiusNormal)),
                     hintText: 'Email',
+                    hintStyle: TextStyle(color: MyColors().textColor),
                     focusColor: MyColors().themeBlue),
               ),
             ),

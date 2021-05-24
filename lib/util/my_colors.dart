@@ -11,5 +11,6 @@ class MyColors {
   final themeBlack = Colors.black;
   final errorRed = Colors.red;
   final avatarBorderColor = Color(0xFF6DB9DE);
+  final ripple = Color(0xFFBEBAB3);
 
 }
